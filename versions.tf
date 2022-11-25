@@ -1,9 +1,10 @@
 terraform {
   required_version = ">= 1.0.0"
+
   required_providers {
-    hashicups = {
-      version = "~> 0.3.1"
+    google = {
+      source  = "hashicorp/google"
+      version = "4.44.1"
     }
   }
 }
-
